@@ -29,38 +29,43 @@ body{
   color: #f5f5f7;
   float: left;
   font-size: 230%;
+  padding-left:1vw;
 }
 
 #navigation{
   display: flex;
-  float: right;
+  margin-left: 44.5vw;
 }
 
 #navigation a{
   text-decoration: none;
-  padding-right:1vw;
+  padding-right:.5vw;
+  padding-left: .5vw;
   color: #f5f5f7;
-  float: right;
-  transition: 1s;
+  float: center;
+  line-height: 30px;
+  border-radius: 3px;
 }
 
 #navigation li{
   margin:9px;
-  text-decoration: none;
   font-size: 110%;
-  list-style-type: none;
   letter-spacing: 2px;
   color: inherit;
   display: inline;
+  transition: 1s;
 }
 
-#navigation a:hover{
-  transform: scale(1.8);
+#navigation li:hover{
+  transform: scale(1.4);
+  background-color:rgba(255, 255, 255, 0.233);
 }
 
 .currently-selected{
-  border: 2px solid #777777;
+  background-color:rgba(255, 255, 255, 0.233);
+  border-radius: 3px;
 }
+
 
 
 
