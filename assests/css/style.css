@@ -154,11 +154,37 @@ body{
 }
 
 #image-desc h2{
-  text-align:center;
+  padding-top:25px;
+  text-align: left;
+  font-size: 260%;
+  padding-left: 2vw;
+}
+
+#image-desc h3{
+  padding-top:15px;
+  text-align: left;
+  font-size: 160%;
+  padding-left: 2vw;
 }
 
 #image-desc p{
-  text-align:center;
+  text-align: left;
+  font-size: 150%;
+  width: 28vw;
+  padding-left: 2vw;
+  width: 25vw;
+  font-weight: 100;
+}
+
+hr{
+  padding-top:.5vw;
+}
+
+#google-map{
+  width: 25vw;
+  height: 15vw;
+  padding-left:2.5vw;
+  padding-top:2vw;
 }
 
 /* Hope Animation*/
