@@ -7,29 +7,60 @@
 }
 
 body{
-  font-family: 'Lato', sans-serif;
-  color: #1d1d1f;
+  font-family: 'Inter', Noto Sans, sans-serif;
+  color: #313132;
+  font-weight: 400;
 }
 
+#first-container{
+  background-color: #313132;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 60px;
+  border-radius:1px;
+  position: sticky;
+}
 
+#main-title{
+  text-decoration: none;
+  font-family: Inter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5f5f7;
+  float: left;
+  font-size: 230%;
+}
 
+#navigation{
+  display: flex;
+  float: right;
+}
 
+#navigation a{
+  text-decoration: none;
+  padding-right:1vw;
+  color: #f5f5f7;
+  float: right;
+  transition: 1s;
+}
 
+#navigation li{
+  margin:9px;
+  text-decoration: none;
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 2px;
+  color: inherit;
+  display: inline;
+}
 
+#navigation a:hover{
+  transform: scale(1.8);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.currently-selected{
+  border: 2px solid #777777;
+}
 
 
 
