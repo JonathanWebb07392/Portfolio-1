@@ -212,3 +212,33 @@ hr{
     background-color: rgba(122, 100, 182, 0);
   }
 }
+
+/* footer */
+
+footer{
+  background-color: #313132;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+  width: 100vw;
+  height: 60px;
+  border-radius:1px;
+  position:fixed;
+  margin-bottom: 0;
+}
+
+.networks{
+  text-align: center;
+  font-size: 160%;
+}
+
+.networks li{
+  display: inline;
+}
+
+.networks li a{
+  padding-top:25px;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color:#ffffff;
+}
