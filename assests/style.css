@@ -1,21 +1,23 @@
   .sign-up {
-  width: 100vw;
+  width: 500px;
   height: 200px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(165, 117, 243, 0.5);
   position: absolute;
+  border-radius: 10px;
   text-align: center;
-  display:block;
+  margin-left: 42.4vw;
+  display:inline;
   animation: reveal-hi 1s ease-in forwards 4s;
   }
 
 @keyframes reveal-hi {
   from {
     transform: translateY(0%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(165, 117, 243, 0.5);
   }
   to{
     transform:translateY(-150px);
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(122, 100, 182, 0);
   }
 }
