@@ -135,14 +135,22 @@ body{
 }
 /* Image Desc */
 
+#desc-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 #image-desc{
-  width:35vw;
+  width:30vw;
   height:20vw;
   border-radius: 10px;
-  margin:0 auto;
+  vertical-align: top;
   margin-top:15px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+  display:inline-block;
+  float:none;
 }
 
 #image-desc h2{
