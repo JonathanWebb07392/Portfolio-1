@@ -10,6 +10,7 @@ body{
   font-family: 'Inter', Noto Sans, sans-serif;
   color: #313132;
   font-weight: 400;
+  background-color: #f5f5f7;
 }
 
 #first-container{
@@ -75,10 +76,67 @@ body{
 
 /* Image Slider  */
 
-#canoeing-images-slider
+#image-container-1{
+  width:45vw;
+  height:20vw;
+  margin-left:15px;
+  margin-top:15px;
+  border: 4px ridge #313132 ;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
 
+#canoeing-images-slider{
+  overflow: hidden;
+}
 
+#canoeing-images-slider figure{
+  position: relative;
+  width:500%;
+  margin:0;
+  left:0%;
+  animation: 20s slider infinite;
+}
 
+#canoeing-images-slider figure img{
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider{
+  0% {
+    left:0;
+  }
+  20%{
+    left:0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left:-100%
+  }
+  50%{
+    left:-200%
+  }
+  70%{
+    left:-200%
+  }
+  75%{
+    left:-300%
+  }
+  100%{
+    left:-300%
+  }
+}
+/* Image Desc */
+
+#image-desc{
+  width:45vw;
+  height:20vw;
+  margin-left:80vw;
+  margin-top:15px;
+}
 
 /* Hope Animation*/
 
