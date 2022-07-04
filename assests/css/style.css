@@ -15,7 +15,7 @@ body{
 
 #first-container{
   background-color: #313132;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   width: 100vw;
   height: 60px;
   border-radius:1px;
@@ -76,17 +76,13 @@ body{
 
 /* Image Slider  */
 
-#first-sec{
-  
-}
-
 #image-container-1{
   width:60vw;
   height:25vw;
   margin:0 auto;
   margin-top:15px;
   border: 4px ridge #313132 ;
-  box-shadow: 0 0 1em rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -183,8 +179,59 @@ hr{
 #google-map{
   width: 25vw;
   height: 15vw;
-  padding-left:2.5vw;
-  padding-top:2vw;
+  padding-left: 2.5vw;
+  padding-top: 1.2vw;
+}
+
+/* Reasons to start */
+
+#reasons{
+  font-family: inherit;
+  width:80vw;
+  height:30vw;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top:15px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+#reasons h2{
+  font-size: 230%;
+  text-align: center;
+  padding-top:25px;
+}
+
+.left-container{
+    width: 33%;
+    float: left;
+    display: block;
+}
+
+.left{
+  float: left;
+  display: block;
+  clear: both;
+}
+
+.left h3{
+  font-size: 160%;
+}
+
+.right-container{
+  width: 33%;
+  float: right;
+  display: block;
+}
+
+.right{
+  float: right;
+  display: block;
+  clear: both;
+}
+
+.right h3{
+  font-size: 160%;
 }
 
 /* Hope Animation*/
@@ -222,7 +269,7 @@ footer{
   width: 100vw;
   height: 60px;
   border-radius:1px;
-  margin-bottom: 0;
+  padding-top:15px;
 }
 
 .networks{
@@ -232,6 +279,7 @@ footer{
 
 .networks li{
   display: inline;
+  padding-top:25px;
 }
 
 .networks li a{
