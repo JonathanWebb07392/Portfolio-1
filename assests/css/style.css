@@ -141,7 +141,7 @@ body{
   justify-content: space-evenly;
 }
 
-#image-desc{
+.image-desc{
   width:30vw;
   height:20vw;
   border-radius: 10px;
@@ -153,21 +153,21 @@ body{
   float:none;
 }
 
-#image-desc h2{
+.image-desc h2{
   padding-top:25px;
   text-align: left;
   font-size: 260%;
   padding-left: 2vw;
 }
 
-#image-desc h3{
+.image-desc h3{
   padding-top:15px;
   text-align: left;
   font-size: 160%;
   padding-left: 2vw;
 }
 
-#image-desc p{
+.image-desc p{
   text-align: left;
   font-size: 150%;
   width: 28vw;
@@ -222,7 +222,6 @@ footer{
   width: 100vw;
   height: 60px;
   border-radius:1px;
-  position:fixed;
   margin-bottom: 0;
 }
 
