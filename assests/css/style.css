@@ -381,8 +381,12 @@ hr{
 }
 
 .event-desc hr{
-  width: 8%;
+  width: 11%;
   border-top: 2px solid #313132;
+}
+
+.event-text{
+  padding-top: 8%;
 }
 
 /* footer */
