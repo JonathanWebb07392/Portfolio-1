@@ -188,7 +188,7 @@ hr{
 #reasons{
   font-family: inherit;
   width:80vw;
-  height:30vw;
+  height:25vw;
   border-radius: 10px;
   margin:0 auto;
   margin-top:15px;
@@ -218,6 +218,10 @@ hr{
   font-size: 160%;
 }
 
+.left p{
+  font-size: 150%;
+}
+
 .right-container{
   width: 33%;
   float: right;
@@ -232,6 +236,10 @@ hr{
 
 .right h3{
   font-size: 160%;
+}
+
+.right p{
+  font-size: 150%;
 }
 
 /* Hope Animation*/
