@@ -277,7 +277,7 @@ hr{
 
 .sign-button:hover{
   transform: scale(1.4);
-  background-color: rgba(2, 1, 100, 0.842);
+  background-color:rgba(255, 255, 255, 0.233);
   border-radius: 3px;
 }
 
@@ -335,4 +335,11 @@ footer{
   margin: 1%;
   padding: 5%;
   color:#ffffff;
+  transition: 1s;
+}
+
+.networks li a:hover{
+  transform: scale(1.4);
+  background-color:rgba(255, 255, 255, 0.233);
+  border-radius: 3px;
 }
