@@ -294,16 +294,16 @@ hr{
   text-align: center;
   margin-left: 42.4vw;
   display:inline;
-  animation: reveal-hi 1s ease-in forwards 4s;
+  animation: reveal 1s ease-in forwards 4s;
 }
 
-@keyframes reveal-hi {
+@keyframes reveal {
   from {
     transform: translateY(0%);
     background-color: rgba(165, 117, 243, 0.5);
   }
   to{
-    transform:translateY(-150px);
+    transform:translateY(-350px);
     background-color: rgba(122, 100, 182, 0);
   }
 }
@@ -312,10 +312,15 @@ hr{
 
 #events{
   width: 70vw;
-  height: 1000px;
+  height: 1100px;
   margin: 0 auto;
   margin-bottom:15px;
   display: block
+}
+
+#events h2{
+  font-size: 230%;
+  padding-top: 15px;
 }
 
 .event-desc{
@@ -380,13 +385,18 @@ hr{
   }
 }
 
-.event-desc hr{
+.event-text > hr{
   width: 11%;
   border-top: 2px solid #313132;
 }
 
 .event-text{
   padding-top: 8%;
+}
+
+.event-text p{
+  padding-right:5px;
+  position: flex;
 }
 
 /* footer */
