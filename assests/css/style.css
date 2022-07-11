@@ -312,6 +312,15 @@ hr{
   }
 }
 
+#back-img{
+  background-image: url(../images/Image-19.webp);
+  background-size: cover;
+  background-position: center;
+  padding-top:15px;
+  padding-bottom:0px;
+  height: 900px;
+}
+
 #sign-up-form{
   font-family: inherit;
   width:450px;
@@ -323,20 +332,18 @@ hr{
   margin-left: 25vw;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
-}
-
-#sign-up-form div{
-  padding: 15px;
+  position: sticky;
 }
 
 .signup-box {
   width: 360px;
   height: 620px;
   margin: auto;
+  padding: 15px;
   border-radius: 3px;
 }
 
-h1 {
+section div h1 {
   text-align: center;
   padding-top: 15px;
 }
@@ -362,16 +369,31 @@ form input {
 }
 
 .box:focus {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(161, 224, 248, 0.329);
 }
 
-input[type="button"] {
+input[type="submit"] {
   width: 320px;
   height: 35px;
   margin-top: 20px;
   background-color: #313132;
   color: #ffffff;
   font-size: 18px;
+  transition: 1s;
+}
+
+input[type="reset"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #313132;
+  font-size: 18px;
+  transition: 1s;
+}
+
+.button:hover{
+  transform: scale(1.2);
 }
 
 /* events page */
