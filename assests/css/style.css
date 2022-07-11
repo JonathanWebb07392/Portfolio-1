@@ -285,27 +285,53 @@ hr{
 /* Hope Animation*/
 
 .sign-up {
-  width: 500px;
-  height: 200px;
+  width: 1000px;
+  height: 180px;
   color: #ffffff;
-  background-color: rgba(165, 117, 243, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   border-radius: 10px;
   text-align: center;
-  margin-left: 42.4vw;
+  margin-left: 36.4vw;
   display:inline;
   animation: reveal 1s ease-in forwards 4s;
+}
+
+.sign-up h1{
+  font-size: 400%;
 }
 
 @keyframes reveal {
   from {
     transform: translateY(0%);
-    background-color: rgba(165, 117, 243, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   to{
     transform:translateY(-350px);
     background-color: rgba(122, 100, 182, 0);
   }
+}
+
+#sign-up-form{
+  font-family: inherit;
+  width:450px;
+  height:500px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top:15px;
+  margin-left: 25vw;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+#sign-up-form div{
+  padding: 15px;
+}
+
+.right h2{
+  font-family: inherit;
+  font-size: 160%;
 }
 
 /* events page */
@@ -315,7 +341,7 @@ hr{
   height: 1100px;
   margin: 0 auto;
   margin-bottom:15px;
-  display: block
+  display: block;
 }
 
 #events h2{
@@ -341,6 +367,7 @@ hr{
   height:65%;
   margin:0 auto;
   margin-top: 7%;
+  margin-right: 7px;
   border: 4px ridge #313132 ;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -386,7 +413,7 @@ hr{
 }
 
 .event-text > hr{
-  width: 11%;
+  width: 15%;
   border-top: 2px solid #313132;
 }
 
@@ -394,9 +421,12 @@ hr{
   padding-top: 8%;
 }
 
+.event-text h3{
+  font-size: 150%;
+}
+
 .event-text p{
-  padding-right:5px;
-  position: flex;
+  font-size: 130%;
 }
 
 /* footer */
