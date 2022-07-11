@@ -35,24 +35,26 @@
 
     </div>
 
-
-    
-    <form id="sign-up-form" method="post" action="https://formdump.codeinstitute.net/">
-
-        <div>
-            <h1>Sign Up Form</h1>
-
-            <label for="fname">First Name</label>
-            <input id="fname" class="text-input" type="text" name="first_name" required />
-            <label for="lname">Last Name</label>
-            <input id="lname" class="text-input" type="text"  name="last_name" required />
-            <label for="email">Email Address</label>
-            <input id="email" class="text-input" type="email" name="email_address" required/>#
-            <input class="join-button" type="submit" value="Join">
-        </div>        
-
-    </form>
-
+    <section id="sign-up-form">
+        <div class="signup-box">
+            <h1>Sign Up</h1>
+            <h4>A few quick clicks</h4>
+            <form method="post" action="https://formdump.codeinstitute.net/">
+              <label>First Name</label>
+              <input class="box" type="text" placeholder="First name" required/>
+              <label>Last Name</label>
+              <input class="box" type="text" placeholder="Last Name" required/>
+              <label>Email</label>
+              <input class="box" type="email" placeholder="Email" required/>
+              <label>Password</label>
+              <input class="box" type="password" placeholder="Password" required/>
+              <label>Confirm Password</label>
+              <input class="box" type="password" placeholder="Confirm Password" required/>
+              <input type="button" value="Submit" />
+            </form>
+        </div> 
+    </section>
+         
     <footer>
 
         <ul class="networks">
