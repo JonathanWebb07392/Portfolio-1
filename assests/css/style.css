@@ -140,10 +140,11 @@ body{
 
 .image-desc{
   width:30vw;
-  height:20vw;
+  height:1%;
   border-radius: 10px;
   vertical-align: top;
-  margin-top:15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
   display:inline-block;
@@ -188,8 +189,8 @@ hr{
 
 #reasons{
   font-family: inherit;
-  width:80vw;
-  height:18vw;
+  width: 80vw;
+  height: 400%;
   border-radius: 10px;
   display: block;
   margin:0 auto;
@@ -318,7 +319,7 @@ hr{
   background-position: center;
   padding-top:15px;
   padding-bottom:0px;
-  height: 900px;
+  height: 800px;
 }
 
 #sign-up-form{
@@ -412,28 +413,27 @@ input[type="reset"] {
 }
 
 .event-desc{
-  width: 45%;
-  height: 450px;
-  clear: both;
+  width: 25vw;
+  height: 19%;
   border-radius: 10px;
   margin: 0 auto;
-  margin-top:15px;
+  margin-top: 15px;
+  padding-bottom: 1%;
   padding-left: 2vw;
+  padding-right: 2vw;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   display: inline-block;
   background-color: #ffffff;
 }
 
 #image-container-2{
-  width:50%;
-  height:65%;
-  margin:0 auto;
+  width: 19vw;
+  height: 9vw;
+  margin: 0 auto;
   margin-top: 7%;
-  margin-right: 7px;
   border: 4px ridge #313132 ;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  float: left;
   overflow: hidden;
 }
 
@@ -525,3 +525,21 @@ footer{
   background-color:rgba(255, 255, 255, 0.233);
   border-radius: 3px;
 }
+
+/* Screen Sizes*/
+
+@media screen and (max-width: 1200px){
+
+  .event-desc{
+    width: 80vw;
+  }
+
+  #image-container-2{
+    width: 80%;
+    height: 1%;
+  }
+
+}
+
+@media screen and (max-width: 950px){}
+
